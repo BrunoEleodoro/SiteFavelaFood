@@ -1,5 +1,5 @@
 #myFooter{
-    padding-top:32px;
+    padding-top:0px;
 }
 
 #myFooter .container{
@@ -19,7 +19,7 @@
 }
 
 #myFooter a{
-    color: #282b2d;
+    color: #fff;
     font-size: 18px;
 }
 
@@ -50,6 +50,25 @@
     line-height: 43px;
     text-decoration: none;
     transition:color 0.2s;
+
+
+}
+#myFooter .fab{
+    font-size: 26px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 40%;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    text-align: center; 
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+
+
 }
 
 #myFooter .fa-facebook:hover{
@@ -60,8 +79,13 @@
     color: #2b55ff; 
 }
 
+#myFooter .fa-tiktok:hover{
+   color: #000;
+}
 
-
+#myFooter .fa-tiktok:focus{
+    color: #000 ; 
+}
 
 #myFooter .fa-instagram:hover{
     color:purple;
@@ -72,37 +96,10 @@
 }
 
 
-
-#myFooter .reddit:hover{
+#myFooter .fa-youtube-play:hover{
     color:red;
 }
-#myFooter .fa-reddit:focus{
-    color:red;
-}
-
-
-
-#myFooter .pinterest:hover{
-    color:red;
-}
-#myFooter .fa-pinterest:focus{
-    color:red;
-}
-
-
-#myFooter .snapchat:hover{
-    color:yellow;
-}
-#myFooter .fa-snapchat:focus{
-    color:yellow;
-}
-
-
-
-#myFooter .fa-youtube:hover{
-    color:red;
-}
-#myFooter .fa-youtube:focus{
+#myFooter .fa-youtube-play:focus{
     color:red;
 
 
@@ -112,9 +109,16 @@
     color: #00aced;
 }
 #myFooter .fa-twitter:focus{
-    color:#00aced;
+    color: #00aced;
 }
 
+
+#myFooter .fa-snapchat-ghost:hover{
+    color: #ffff00;
+}
+#myFooter .fa-snapchat-ghost:focus{
+    color: #ffff00;
+}
 
 
 /* CSS utilizado para posicionar o rodapé no final da página. */

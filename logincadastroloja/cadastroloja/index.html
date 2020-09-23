@@ -19,7 +19,7 @@
   <div>
   <div class="" align="center">
     <a class="navbar-brand" href="index.html">
-    <img src="img/icon2.png" height="80" width="80" class="img-fluid" alt="image"></a>
+    <img src="img/icon1.png" height="100" width="150" class="img-fluid" alt="image"></a>
   </div>
 
   <section>
@@ -41,9 +41,10 @@
     <li class="active">Dados da Loja</li>
     <li>Entenda como funciona</li>
     <li>Sobre o dono do restaurante</li>
-    <li>Dados Bancário para Recebimento</li>
+    <li>Dados Bancários para Recebimento</li>
     <li>Revisão dos Dados</li>
     <li>Criação de Login e Senha</li>
+    <li>Deu Bom!</li>
   </ul>
 
   <!-- fieldsets -->
@@ -164,15 +165,15 @@
   <fieldset>
     <h2 class="fs-title">Entenda como funciona!
     <h3 class="fs-subtitle">Saiba como funciona os planos do Favela Food e aproveite para multiplicar suas vendas</h3>
-    <img src="img/icon2.png">
+    <img src="img/icon1.png" height="300" width="420">
     <h2 class="fs-subtitle" align="center">
-    <h2> <font color="orange">&#x2713; </font>Veja o melhor plano para sua região.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> Receba um contrato no seu e-mail ao fim do cadastro.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> Depois de assinado o contrato, iremos te ajudar no uso da plataforma.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> Não possuímos fidelidade, cancele o plano quando desejar.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> A entrega dos pedidos é feita pelo restaurante.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> 12% sobre o valor dos pedidos, incluindo taxa de entrega.</h2><br>
-    <h2> <font color="orange">&#x2713; </font> Mensalidade de R$100,00 por mês, apenas se você faturar mais do que R$1.800,00 mensais.</h2><br><br>
+    <h2> <font color="orange">&#128992; </font> Veja o melhor plano para sua região.</h2><br>
+    <h2> <font color="orange">&#128992; </font> Receba um contrato no seu e-mail ao fim do cadastro.</h2><br>
+    <h2> <font color="orange">&#128992; </font> Depois de assinado o contrato, iremos te ajudar no uso da plataforma.</h2><br>
+    <h2> <font color="orange">&#128992; </font> Não possuímos fidelidade, cancele o plano quando desejar.</h2><br>
+    <h2> <font color="orange">&#128992; </font> A entrega dos pedidos é feita pelo restaurante.</h2><br>
+    <h2> <font color="orange">&#128992; </font> 12% sobre o valor dos pedidos, incluindo taxa de entrega.</h2><br>
+    <h2> <font color="orange">&#128992; </font> Mensalidade de R$100,00 por mês, apenas se você faturar mais do que R$1.800,00 mensais.</h2><br><br>
     <input type="button" name="previous" class="previous action-button" value="Anterior" />
     <input type="button" name="next" class="next action-button" value="Próximo" />
   </fieldset>
@@ -218,8 +219,8 @@
    	<div class="container"> 
   	<div class="row">
     <div class="col-1">
-		    <input type="checkbox" id="_checkbox">
-	<label for="_checkbox">
+		    <input type="checkbox" class="_checkbox" id="_checkbox0" value="ok">
+	<label for="_checkbox0">
     <div id="tick_mark"></div>
 	</label>
 		 </div>
@@ -241,84 +242,80 @@
 
 
 
-   <!--page 4-->
+   <!--page 4 Sobre o dono do restaurante-->
   <fieldset>
   	<div class="container">
-    <h2 class="fs-title">Dados bancário para recebimento</h2>
-    <h3 class="fs-subtitle"> Informa uma conta vinculada ao CNPJ, MEI ou CPF do proprietário do restaurante para que você receba o repasse do Favela Food corretamente</h3><br>
+        <h2 class="fs-title">Dados bancários para recebimento</h2>
+            <h3 class="fs-subtitle"> Informa uma conta vinculada ao CNPJ, MEI ou CPF do proprietário do restaurante para que você receba o repasse do Favela Food corretamente</h3><br>
+
+                <h2 align="left"> Escolha o titular da conta:
+                    <input type="text" name="titular" placeholder="Insira os nome do titular da conta"></h2>
     
-    <h2 align="left"> Escolha o titular da conta:
-    <input type="text" name="bairro" placeholder="Escolha o orgão emissor. Ex.: Detran"></h2>
+                 <h2 align="left"> Banco: </h2>
+                    <input type="text" name="banco" placeholder="Escolha o seu banco"></h2>    
     
-    <h2 align="left"> Banco: </h2>
-    <input type="text" name="banco" placeholder="Escolha o seu banco"></h2>    
+                <h2 align="left"> Agência: </h2>
+                    <input type="text" name="agencia" placeholder="Digite sua Agência"></h2>
     
-    <h2 align="left"> Agência: </h2>
-    <input type="text" name="agencia" placeholder="Digite sua Agência"></h2>
-    
-    
-  	<div class="row">
-    <div class="col-sm">
-    <h2 align="left"> Conta: </h2>
-    <input type="text" name="conta" placeholder="Digite sua conta">
-    </div>
-   
-	<div class="col-sm">
-    <h2 align="left"> Dígito: </h2>
-    <input type="text" name="digito" placeholder="Insira o dígito verificador"></h2><br><br>
-   	</div>
-    </div>
-	
-    <h3 class="fs-subtitle" align="left"> Esta é uma conta poupança? </h3><br>
-    
+  	                 <div class="row">
+                        <div class="col-sm">
+                            <h2 align="left"> Conta: </h2>
+                                <input type="text" name="conta" placeholder="Digite sua conta">
+                        </div>
+                    	<div class="col-sm">
+                            <h2 align="left"> Dígito: </h2>
+                                <input type="text" name="digito" placeholder="Insira o dígito verificador"></h2><br><br>
+                       	</div>
+                    </div>
+         <h3 class="fs-subtitle" align="left"> Esta é uma conta poupança? </h3><br>
     <div class="container"> 
-  		<div class="row">
-    		<div class="col-sm">
-		    	<input type="checkbox" id="_checkbox">
-					<label for="_checkbox">
-    					<div id="tick_mark"></div>
-					</label>
-			</div>
-    				<div class="col-sm">
-      					<h2 align="left" class="fs-subtitle"> Sim </h2>
-    				</div>
-					<div class="col-sm">
-		    			<input type="checkbox" id="_checkbox">
-							<label for="_checkbox">
-    							<div id="tick_mark"></div>
-							</label>
-					</div>
-    					<div class="col-sm">
-      						<h2 align="left" class="fs-subtitle"> Não </h2>
-    					</div>
-			</div>
-		</div>
-		<br>
-		<h3 class="fs-subtitle" align="left"> Esta conta bancária esta vinculada ao CNPJ do restaurante? </h3><br>
-   				<div class="container"> 
-  					<div class="row">
-    					<div class="col-sm">
-		    				<input type="checkbox" id="_checkbox">
-								<label for="_checkbox">
-    								<div id="tick_mark"></div>
-								</label>
-						</div>
-							    <div class="col-sm">
-							      <h2 align="left" class="fs-subtitle"> Sim </h2>
-							    </div>
-							    <div class="col-sm" align="left">
-							    	<input type="checkbox" id="_checkbox">
-										<label for="_checkbox">
-    										<div id="tick_mark"></div>
-										</label>
-								</div>
-    									<div class="col-sm">
-      										<h2 align="left" class="fs-subtitle"> Não </h2>
-    									</div>
-					</div>
-			</div>
+        <div class="row">
+            <div class="col-sm">
+                <input type="checkbox" class="_checkbox" id="_checkbox1" value="Sim">
+                    <label for="_checkbox1">
+                        <div id="tick_mark"></div>
+                    </label>
+            </div>
+                    <div class="col-sm">
+                        <h2 align="left" class="fs-subtitle"> Sim </h2>
+                    </div>
+                    <div class="col-sm">
+                        <input type="checkbox" class="_checkbox" id="_checkbox2" value="Nao">
+                            <label for="_checkbox2">
+                                <div id="tick_mark"></div>
+                            </label>
+                    </div>
+                        <div class="col-sm">
+                            <h2 align="left" class="fs-subtitle"> Não </h2>
+                        </div>
+            </div>
+        </div>
+    <br>
+    <h3 class="fs-subtitle" align="left"> Esta conta bancária esta vinculada ao CNPJ do restaurante? </h3><br>
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col-sm">
+                            <input type="checkbox" class="_checkbox" id="_checkbox3" value="Sim">
+                    <label for="_checkbox3">
+                        <div id="tick_mark"></div>
+                    </label>
+            </div>
+                    <div class="col-sm">
+                        <h2 align="left" class="fs-subtitle"> Sim </h2>
+                    </div>
+                    <div class="col-sm">
+                        <input type="checkbox" class="_checkbox" id="_checkbox4" value="Nao">
+                            <label for="_checkbox4">
+                                <div id="tick_mark"></div>
+                            </label>
+                    </div>
+                        <div class="col-sm">
+                            <h2 align="left" class="fs-subtitle"> Não </h2>
+                       </div>
+            </div>
+    </div>
     <br><br>
-	</div></div>
+    </div>
     <input type="button" name="previous" class="previous action-button" value="Anterior" />
     <input type="button" name="next" class="next action-button" value="Próximo" />
   	</fieldset>
@@ -328,11 +325,11 @@
    <!--page 5-->
    <fieldset>
   	<div class="container">
-    <h2 class="fs-title">Dados bancário para recebimento</h2>
-    <h3 class="fs-subtitle"> Informa uma conta vinculada ao CNPJ, MEI ou CPF do proprietário do restaurante para que você receba o repasse do Favela Food corretamente</h3><br>
+    <h2 class="fs-title">Confira seus dados bancários para recebimento</h2>
+    <h3 class="fs-subtitle"> Valide todos os seus dados bancários para que você receba o repasse do Favela Food corretamente</h3><br>
     
     <h2 align="left"> Escolha o titular da conta:
-    <input type="text" name="bairro" placeholder="Escolha o orgão emissor. Ex.: Detran"></h2>
+    <input type="text" name="titular" placeholder="Titular da conta"></h2>
     
     <h2 align="left"> Banco: </h2>
     <input type="text" name="banco" placeholder="Escolha o seu banco"></h2>    
@@ -352,14 +349,12 @@
     <input type="text" name="digito" placeholder="Insira o dígito verificador"></h2><br><br>
    	</div>
     </div>
-	
      <h3 class="fs-subtitle" align="left"> Esta é uma conta poupança? </h3><br>
-    
     <div class="container"> 
   		<div class="row">
     		<div class="col-sm">
-		    	<input type="checkbox" id="_checkbox">
-					<label for="_checkbox">
+		    	<input type="checkbox" class="_checkbox" id="_checkbox5" value="Sim">
+					<label for="_checkbox5">
     					<div id="tick_mark"></div>
 					</label>
 			</div>
@@ -367,8 +362,8 @@
       					<h2 align="left" class="fs-subtitle"> Sim </h2>
     				</div>
 					<div class="col-sm">
-		    			<input type="checkbox" id="_checkbox">
-							<label for="_checkbox">
+		    			<input type="checkbox" class="_checkbox" id="_checkbox6" value="Nao">
+							<label for="_checkbox6">
     							<div id="tick_mark"></div>
 							</label>
 					</div>
@@ -377,65 +372,101 @@
     					</div>
 			</div>
 		</div>
-		<br>
-		<h3 class="fs-subtitle" align="left"> Esta conta bancária esta vinculada ao CNPJ do restaurante? </h3><br>
+	<br>
+    <h3 class="fs-subtitle" align="left"> Esta conta bancária esta vinculada ao CNPJ do restaurante? </h3><br>
    				<div class="container"> 
   					<div class="row">
     					<div class="col-sm">
-		    				<input type="checkbox" id="_checkbox">
-								<label for="_checkbox">
-    								<div id="tick_mark"></div>
-								</label>
-						</div>
-							    <div class="col-sm">
-							      <h2 align="left" class="fs-subtitle"> Sim </h2>
-							    </div>
-							    <div class="col-sm" align="left">
-							    	<input type="checkbox" id="_checkbox">
-										<label for="_checkbox">
-    										<div id="tick_mark"></div>
-										</label>
-								</div>
-    									<div class="col-sm">
-      										<h2 align="left" class="fs-subtitle"> Não </h2>
-    									</div>
-					</div>
-			</div>
+		    				<input type="checkbox" class="_checkbox" id="_checkbox7" value="Sim">
+                    <label for="_checkbox7">
+                        <div id="tick_mark"></div>
+                    </label>
+            </div>
+                    <div class="col-sm">
+                        <h2 align="left" class="fs-subtitle"> Sim </h2>
+                    </div>
+                    <div class="col-sm">
+                        <input type="checkbox" class="_checkbox" id="_checkbox8" value="Nao">
+                            <label for="_checkbox8">
+                                <div id="tick_mark"></div>
+                            </label>
+                    </div>
+                        <div class="col-sm">
+                            <h2 align="left" class="fs-subtitle"> Não </h2>
+                       </div>
+            </div>
+	</div>
     <br><br>
-	</div></div>
+    </div>
+</div>
     <input type="button" name="previous" class="previous action-button" value="Anterior" />
     <input type="button" name="next" class="next action-button" value="Próximo" />
   	</fieldset>
 
-   <!--page 6-->
+
+
+
+   <!--page 6 tela de login-->
   <fieldset>
-    <h2 class="fs-title">Ta quase lá! Vai da Bom! </h2>
-    <h3 class="fs-subtitle">Crie seu login e senha para acessar o nosso aplicativo</h3></br>
-    <h2 class="fs-subtitle" align="left"> Login:
-    <input type="text" name="cnpj" placeholder="Digite seu Login" /></h2>
-    <h2 class="fs-subtitle" align="left"> Senha:
-    <input type="password" name="password" placeholder="Digite sua senha" /></h2>
+    <div class="container">
+      <h2 class="fs-title">Ta quase lá! Vai da Bom!</h2>
+       <h3 class="fs-subtitle">Nesta tela, você vai criar o seu login e senha para acessar o nosso aplicativo.<br> Lembre-se de anotar!</h3>
+        <div class="row">
+            <br>
+               <div class="col-sm">
+                <img src="img/icon1.png" height="200" width="250">
+               </div>
+               <div class="col-sm">
+                 <br><br><br>
+                        <h2 align="left"> Login: </h2>
+                    <input type="text" name="digito" placeholder="Digite seu e-mail para login"></h2><br><br>
+                        <h2 align="left"> Senha: </h2>
+                    <input type="text" name="digito" placeholder="Insira o dígito verificador"></h2><br><br>
+               </div>
+    </div>
+</div>
     <h2 class="fs-subtitle" align="left">
-    <font color="#000" align="left">
-    <p align="left">
-    <h2> - Sua senha deve conter no mínimo 8 caracteres.</h2><br>
-    <h2> - Sua senha deve conter ao menos um número e um caracter especial.</h2><br>
-    <h2> - São caracteres especiais válidos <font color="red">@,#,$,%,&,* </font>.</h2><br>
-    <h2> - Para que a sua senha seja segura, não utilize nenhuma informação pessoal, como data de nascimento e não utilize palavras comuns que constem no dicionário.</h2><br>
-    <h2> - Seu nome de usuário e sua senha devem ser diferentes.</h2><br></h2>
-    </p>
-</font></br>
+        <font align="left">
+            <p align="left">    
+                <h2>  &#128992; Sua senha deve conter no mínimo 8 caracteres, sendo um número e um caracter especial.</h2>
+                <h2>  &#128992; São caracteres especiais válidos <font color="red"> @,#,$,%,&,* </font>.</h2>
+                <h2>  &#128992; Para que a sua senha seja segura, não utilize nenhuma informação pessoal, como data de nascimento e não utilize palavras comuns que constem no dicionário.</h2>
+                <h2>  &#128992; Seu nome de usuário e sua senha devem ser diferentes.</h2>
+            </p>           
+        </font>
+    </h2>
+</br>
     <input type="button" name="previous" class="previous action-button" value="Anterior" />
+    <input type="button" name="next" class="next action-button" value="Próximo" />
+  </fieldset>
+
+  <!--page 7 Vai dá Bom!-->
+  <fieldset>
+    <div class="container">
+      <h2 class="fs-title"> "Parabéns! </h2>
+      <br><br><br>
+        <div class="row">
+               <div class="col-sm">
+                <img src="icon.jpg" height="200" width="250">
+               </div>
+               <div class="col-sm">
+                 <br>   
+                        <h2 align="justify"> Parabéns! Você conluiu todos os passos necessários para cadastrar seu negócio na mais nova plataforma de food delivery do Brasil. <br> A partir de agora, nossos consultores enviarão para seu e-mail um contrato digital, basta assinar e nos reenviar com os documentos solicitados no mesmo e-mail. Lembre-se, aqui seu negócio ganha visibilidade. Seja parceito do Favela Food.<br><br>
+                        #VaiDaBom!</h2>
+               </div>
+    </div>
+</div>
+    <h2 class="fs-subtitle" align="left">
+        <font align="left">
+            <p align="left">    
+                
+        </font>
+    </h2>
+</br>
     <input type="submit" name="submit" class="submit action-button" value="Concluir" /></h2>
   </fieldset>
-</form>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-
-
-
+     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+     <script src="js/index.js"></script>
 </body>
 </html>
