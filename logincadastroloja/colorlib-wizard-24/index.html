@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro Parceiro</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="css/roboto-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- datepicker -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<section>
+	<div class="row">
+    <div class="" align="left">
+    <a class="navbar-brand" button onclick="history.go(-1)">
+    <img src="images/retornar1.png" width="100" class="img-fluid" alt="image" align="left"></a>
+    </div>
+    </div>
+    </div>
+	<div class="page-content" style="background-image: url('.jpg')">
+		<div class="wizard-v4-content">
+			<div class="wizard-form">
+				<div class="wizard-header">
+					<div class="" align="center">
+					    <a class="navbar-brand">
+					    <img src="images/icon1.png" height="100" width="150" class="img-fluid" alt="image"></a>
+						<h3 class="heading">Cadastre sua loja</h3>
+						<p>Preencha os campos abaixo com dados da sua futura loja no Favela Food. </p>
+						<p>#Vai da Bom!</p>
+					</div>
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Dados da Loja:</h3>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="cnpj" name="cnpj" required>
+											<span class="label">CNPJ, MEI ou CPF: </span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="social" name="social" required>
+											<span class="label">Razão Social:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="address" name="address" required>
+											<span class="label">Nome do seu negócio:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="endereco" name="endereco" required>
+											<span class="label">Endereço: </span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="numero" name="numero" required>
+											<span class="label">Número:</span>
+					  						<span class="border"></span>
+										</label>
+								</div>
+							</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="cidade" name="cidade" required>
+											<span class="label">Cidade: </span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="UF" name="UF" required>
+											<span class="label">UF:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="CEP" name="CEP" required>
+											<span class="label">CEP: </span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="complemento" name="complemento" required>
+											<span class="label">Complemento:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="bairro" name="bairro" required>
+											<span class="label">Bairro: </span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="telefone" name="telefone" required>
+											<span class="label">Telefone:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<select name="position" id="position">
+											<option value="position"> Qual especialidade da sua loja? </option>
+											<option value="açaí">Açaí</option>
+										    <option value="africana">Africana</option>
+										    <option value="alemã">Alemã</option>
+										    <option value="arabe">Árabe</option>
+										    <option value="argentina">Argentina</option>
+										    <option value="bebidas">Bebidas</option>
+										    <option value="brasileira">Brasileira</option>
+										    <option value="cafeteria">Cafeteria</option>
+										    <option value="Caldos">Caldos</option>
+										    <option value="carnes">Carnes</option>
+										    <option value="cucos">Casa de Sucos</option>
+										    <option value="chinesa">Chinesa</option>
+										    <option value="colombiana">Colombiana</option>
+										    <option value="congelados">Congelados</option>
+										    <option value="conveniência">Conveniência</option>
+										    <option value="coreana">Coreana</option>
+										    <option value="doces">Doces e Bolos</option>
+										    <option value="espanhola">Espanhola</option>
+										    <option value="espetinho">Espetinho</option>
+										    <option value="francesa">Francesa</option>
+										    <option value="mar">Frutos do Mar</option>
+										    <option value="indiana">Indiana</option>
+										    <option value="italiana">Italiana</option>
+										    <option value="japonesa">Japonesa</option>
+										    <option value="lanches">Lanches</option>
+										    <option value="marmita">Marmita</option>
+										    <option value="fitness">Marmita Fitiness</option>
+										    <option value="mediterrânea">Mediterrânea</option>
+										    <option value="mexicana">Mexicana</option>
+										    <option value="nordestina">Nordestina</option>
+										    <option value="padaria">Padaria</option>
+										    <option value="pastel">Pastel</option>
+										    <option value="peixes">Peixes</option>
+										    <option value="peruana">Peruana</option>
+										    <option value="pizza">Pizza</option>
+										    <option value="portuguesa">Portuguesa</option>
+										    <option value="salgados">Salgados</option>
+										    <option value="fitiness">Fitiness</option>
+										    <option value="sorvetes">Sorvetes</option>
+										    <option value="tailandesa">Tailandesa</option>
+										    <option value="vegetariana">Vegetariana</option>
+										</select>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+							</div>
+			            </section>
+
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<div align="center">
+			                	<h3 align="center">Entenda como funciona e escolha o melhor plano para sua região</h3><br>
+			                	<img src="images/icon1.png" width="300"><br><br>
+								<br>
+			                	<p align="left"> &#128308; Receba um contrato no seu e-mail ao fim do cadastro.</p>
+							    <p align="left">&#128308; Depois de assinado o contrato, iremos te ajudar no uso da plataforma.</p>
+							    <p align="left">&#128308; Não possuímos fidelidade, cancele o plano quando desejar.</p>
+							    <p align="left">&#128308; A entrega dos pedidos é feita pelo restaurante.</p>
+							    <p align="left">&#128308; 12% sobre o valor dos pedidos, incluindo taxa de entrega.</p>
+							    <p align="left">&#128308; Mensalidade de R$100,00 por mês, apenas se você faturar mais do que R$1.800,00 mensais.</p><br><br>
+							</div>
+						</div>
+			            </section>
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Mais sobre você</h3>
+			                	<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="name" name="name" required>
+											<span class="label">Nome completo:</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="cpf" name="cpf" required>
+											<span class="label">CPF:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="rg" name="rg" required>
+											<span class="label">RG:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<select name="position" id="position">
+											<option value="Position" disabled selected>Orgão Emissor</option>
+											<option value="IFP">IFP - Instituto Felix Pacheco</option>
+										    <option value="IPF">IPF - Instituto Pereira Faustino</option>
+										    <option value="SSP">SSP - Secretária de Segurança Pública</option>
+										    <option value="MA">MA - Ministério da Aeronáutica</option>
+										    <option value="MM">MM - Ministério da Marinha</option>
+										    <option value="MT">MT - Ministério do Trabalho</option>
+										    <option value="OAB">OAB - Ordem dos Advogados do Brasil</option>
+										    <option value="CREA">CREA - Conselho Regional de Engenharia e Arquitetura</option>
+										    <option value="CRM">CRM - Conselho Regional de Medicina</option>
+										    <option value="CRA">CRA - Conselho Regional de Administração</option>
+										    <option value="ME">ME - Ministério do Exercito</option>
+										    <option value="CBM">CBM - Corpo de Bombeiros Militar </option>
+										    <option value="CRO">CRO - Conselho Regional de Odontologia</option>
+										    <option value="CRF">CRF - Conselho Regional de Farmácia</option>
+										    <option value="Detran">Detran</option>
+										</select>
+									</div>
+								</div>
+								<br>
+								<div class="form-row">
+									<div id="radio">
+										<input type="radio" name="gender" value="male"  class="male"> Concordo em receber contato via<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Whats App para fins de cadastro
+									</div>
+								</div>
+								</div>
+			            </section>
+			            <!-- SECTION 4 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-money"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Dados bancários para recebimento</h3>
+			                	<p>Informa uma conta vinculada ao CNPJ, MEI ou CPF do proprietário do restaurante para que você receba o repasse do Favela Food corretamente</p><br><br>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" name="business" id="business" class="form-control" required>
+											<span class="label">Insira o Nome do titular da conta:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="banco" name="banco" required>
+											<span class="label">Banco:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="agencia" name="agencia" required>
+											<span class="label">Agência:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="conta" name="conta" required>
+											<span class="label">Conta:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="digito" name="digito" required>
+											<span class="label">Dígito:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div id="checkbox">
+										<p>
+										<span>Esta é uma conta Poupança?:<br><br>
+									<div class="form-row">
+										<input type="radio" name="gender" value="male"  class="male"> Sim
+  										<input type="radio" name="gender" value="male"  class="male"> Não </p>
+  										</div>
+  									</span>
+									</div>
+								</div>
+									<div class="form-row">
+									<div id="checkbox">
+										<p>
+										<span>Esta conta bancária esta vinculada ao CNPJ do restaurante?:<br><br>
+									<div class="form-row">
+										<input type="radio" name="gender" value="male"  class="male"> Sim
+  										<input type="radio" name="gender" value="male"  class="male"> Não </p>
+  										</div>
+  									</span>
+									</div>
+								</div>
+							</div>
+			            </section>
+			            <!--Section 5 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-money"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Agora é hora de validar seus dados</h3>
+			                	<p>Valide os dados bancários do proprietário do restaurante para que você receba o repasse do Favela Food corretamente</p><br><br>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" name="business" id="business" class="form-control" required>
+											<span class="label">Insira o Nome do titular da conta:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="banco" name="banco" required>
+											<span class="label">Banco:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="agencia" name="agencia" required>
+											<span class="label">Agência:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="conta" name="conta" required>
+											<span class="label">Conta:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="digito" name="digito" required>
+											<span class="label">Dígito:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div id="checkbox">
+										<p>
+										<span>Esta é uma conta Poupança?:<br><br>
+									<div class="form-row">
+										<input type="radio" name="vehicle1" value="yes"  class="male"> Sim
+  										<input type="radio" name="vehicle2" value="nao"  class="male"> Não </p>
+  										</div>
+  									</span>
+									</div>
+								</div>
+									<div class="form-row">
+									<div id="checkbox">
+										<p>
+										<span>Esta conta bancária esta vinculada ao CNPJ do restaurante?:<br><br>
+									<div class="form-row">
+										<input type="radio" name="vehicle3" value="yes"  class="male"> Sim
+  										<input type="radio" name="vehicle4" value="nao"  class="male"> Não </p>
+  										</div>
+  									</span>
+									</div>
+								</div>
+							</div>
+			            </section>
+			            <!-- SECTION 6 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-lock"></i></span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Crie seu Login</h3>
+			                	<p>Nesta tela você criará o seu login para acesso a nossa plataforma. Anote!</p><br><br>
+
+			                	<img src="images/icon1.png" width="100" class="img-fluid" alt="image"></a><br><br>
+			                	<div class="limiter">
+			                	<div class="row" align="center"> 
+			                	<div class="inner" align="center">
+									<div class="form-holder form-holder-1" align="center">
+										<div class="form-row" align="center">
+									    <div class="form-holder" align="center">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="email" name="email" required>
+											<span class="label">Insira seu email para login:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="align-center">
+								<div class="form-row">
+									<div class="form-holder">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="senha" name="senha" required>
+											<span class="label">Digite sua senha:</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div><br><br>
+										<div class="row" align="left">	
+										<p> &#128308; Sua senha deve conter no mínimo 8 caracteres, sendo um número e um caracter especial.</p>
+									    <p> &#128308; São caracteres especiais válidos @,#,$,%,&,* .</p>
+									    <p>&#128308; Para que a sua senha seja segura, não utilize nenhuma informação pessoal, como data de nascimento e não utilize palavras comuns que constem no dicionário.</p>
+									    <p>&#128308; Seu nome de usuário e sua senha devem ser diferentes.</p>
+									</div>
+								</div>
+								</div>
+							</div>
+			            </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
